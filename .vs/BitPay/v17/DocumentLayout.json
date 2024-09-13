@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\R.M\\source\\repos\\BitPay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E75BA53B-138E-4045-9DE8-06A380A60C2D}|Src\\Infra\\BitPay.Infra\\BitPay.Infra.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\infra\\bitpay.infra\\models\\member\\configs\\memberconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75BA53B-138E-4045-9DE8-06A380A60C2D}|Src\\Infra\\BitPay.Infra\\BitPay.Infra.csproj|solutionrelative:src\\infra\\bitpay.infra\\models\\member\\configs\\memberconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\aipframework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\aipframework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\payment\\repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\payment\\repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\payment\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\payment\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\transfer\\entities\\transafer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\transfer\\entities\\transafer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\merchant\\valueobjects\\walletaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\merchant\\valueobjects\\walletaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\merchant\\rule\\walletaddressvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\merchant\\rule\\walletaddressvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\transfer\\repositories\\itransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\transfer\\repositories\\itransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\merchant\\repositories\\imerchantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\merchant\\repositories\\imerchantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\merchant\\entities\\merchant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\merchant\\entities\\merchant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\rule\\phonenumbervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\rule\\phonenumbervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\valueobjects\\nationalcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\valueobjects\\nationalcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\rule\\nationalcodevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\rule\\nationalcodevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\valueobjects\\personname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\valueobjects\\personname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\rule\\personnamevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\rule\\personnamevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\member\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\member\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\exceptions\\invalidvalueobjectstateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\exceptions\\invalidvalueobjectstateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\exceptions\\invalidentitystateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\exceptions\\invalidentitystateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\exceptions\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\exceptions\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\exceptions\\domainstateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\exceptions\\domainstateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\exceptions\\businessrulevalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\exceptions\\businessrulevalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\commands\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\commands\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\entities\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\entities\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\entities\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\entities\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\valueobjects\\basevalueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\valueobjects\\basevalueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\valueobjects\\rule\\thevaluemustnotbeempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\valueobjects\\rule\\thevaluemustnotbeempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\valueobjects\\\u200Cbusinessid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\valueobjects\\\u200Cbusinessid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\valueobjects\\rule\\bussinesidisvalid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\valueobjects\\rule\\bussinesidisvalid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\framework\\aipframework\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA04FA6-1B2E-4FDB-87B1-EB35F4B4B41A}|framework\\AIPFramework\\AIPFramework.csproj|solutionrelative:framework\\aipframework\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|c:\\users\\r.m\\source\\repos\\bitpay\\src\\domain\\bitpay.domain\\common\\applicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBBE069-83AC-44BC-B177-7B854EEDD86F}|Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj|solutionrelative:src\\domain\\bitpay.domain\\common\\applicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AIPFramework.csproj",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\AIPFramework.csproj",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\AIPFramework.csproj",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\AIPFramework.csproj",
+              "RelativeToolTip": "framework\\AIPFramework\\AIPFramework.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T20:25:34.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberConfig.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Infra\\BitPay.Infra\\Models\\Member\\Configs\\MemberConfig.cs",
+              "RelativeDocumentMoniker": "Src\\Infra\\BitPay.Infra\\Models\\Member\\Configs\\MemberConfig.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Infra\\BitPay.Infra\\Models\\Member\\Configs\\MemberConfig.cs",
+              "RelativeToolTip": "Src\\Infra\\BitPay.Infra\\Models\\Member\\Configs\\MemberConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T20:23:21.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Payment\\Repositories\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Payment\\Repositories\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Payment\\Repositories\\IPaymentRepository.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Payment\\Repositories\\IPaymentRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T20:10:50.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Payment\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Payment\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Payment\\Entities\\Payment.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Payment\\Entities\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:17:55.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMerchantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\Repositories\\IMerchantRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Merchant\\Repositories\\IMerchantRepository.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\Repositories\\IMerchantRepository.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Merchant\\Repositories\\IMerchantRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:17:20.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITransferRepository.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Transfer\\Repositories\\ITransferRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Transfer\\Repositories\\ITransferRepository.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Transfer\\Repositories\\ITransferRepository.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Transfer\\Repositories\\ITransferRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:16:59.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transafer.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Transfer\\Entities\\Transafer.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Transfer\\Entities\\Transafer.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Transfer\\Entities\\Transafer.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Transfer\\Entities\\Transafer.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:15:59.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WalletAddressValidation.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\Rule\\WalletAddressValidation.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Merchant\\Rule\\WalletAddressValidation.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\Rule\\WalletAddressValidation.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Merchant\\Rule\\WalletAddressValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:05:14.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WalletAddress.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\ValueObjects\\WalletAddress.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Merchant\\ValueObjects\\WalletAddress.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\ValueObjects\\WalletAddress.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Merchant\\ValueObjects\\WalletAddress.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:03:59.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Merchant.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\Entities\\Merchant.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Merchant\\Entities\\Merchant.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Merchant\\Entities\\Merchant.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Merchant\\Entities\\Merchant.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:01:57.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Repository\\IRepository.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:00:40.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NationalCode.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\NationalCode.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\NationalCode.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\NationalCode.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\NationalCode.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:43:14.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhoneNumberValidation.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Rule\\PhoneNumberValidation.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\Rule\\PhoneNumberValidation.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Rule\\PhoneNumberValidation.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\Rule\\PhoneNumberValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:35:23.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NationalCodeValidation.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Rule\\NationalCodeValidation.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\Rule\\NationalCodeValidation.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Rule\\NationalCodeValidation.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\Rule\\NationalCodeValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:44:48.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Entities\\Member.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\Entities\\Member.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Entities\\Member.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\Entities\\Member.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:27:07.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Repositories\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\Repositories\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Repositories\\IMemberRepository.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\Repositories\\IMemberRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:28:54.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PersonName.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PersonName.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PersonName.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PersonName.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PersonName.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwCYAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:40:36.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PersonNameValidation.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Rule\\PersonNameValidation.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\Rule\\PersonNameValidation.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\Rule\\PersonNameValidation.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\Rule\\PersonNameValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:41:18.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InvalidValueObjectStateException.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\InvalidValueObjectStateException.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Exceptions\\InvalidValueObjectStateException.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\InvalidValueObjectStateException.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Exceptions\\InvalidValueObjectStateException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:39:48.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InvalidEntityStateException.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\InvalidEntityStateException.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Exceptions\\InvalidEntityStateException.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\InvalidEntityStateException.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Exceptions\\InvalidEntityStateException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:39:46.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBusinessRule.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\IBusinessRule.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Exceptions\\IBusinessRule.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\IBusinessRule.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Exceptions\\IBusinessRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:39:44.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PhoneNumber.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PhoneNumber.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PhoneNumber.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PhoneNumber.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Member\\ValueObjects\\PhoneNumber.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:29:53.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DomainStateException.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\DomainStateException.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Exceptions\\DomainStateException.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\DomainStateException.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Exceptions\\DomainStateException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:39:41.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BusinessRuleValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\BusinessRuleValidationException.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Exceptions\\BusinessRuleValidationException.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Exceptions\\BusinessRuleValidationException.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Exceptions\\BusinessRuleValidationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:38:53.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Commands\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Commands\\ICommandHandler.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Commands\\ICommandHandler.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Commands\\ICommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:39:35.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Commands\\ICommand.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Commands\\ICommand.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Commands\\ICommand.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Commands\\ICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:39:33.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAggregateRoot.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Entities\\IAggregateRoot.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Entities\\IAggregateRoot.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Entities\\IAggregateRoot.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Entities\\IAggregateRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:39:20.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TheValueMustNotBeEmpty.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\Rule\\TheValueMustNotBeEmpty.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\ValueObjects\\Rule\\TheValueMustNotBeEmpty.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\Rule\\TheValueMustNotBeEmpty.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\ValueObjects\\Rule\\TheValueMustNotBeEmpty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:32:50.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BaseValueObject.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\BaseValueObject.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\ValueObjects\\BaseValueObject.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\BaseValueObject.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\ValueObjects\\BaseValueObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:30:00.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "\u200CBusinessId.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\\u200CBusinessId.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\ValueObjects\\\u200CBusinessId.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\\u200CBusinessId.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\ValueObjects\\\u200CBusinessId.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwCwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:29:58.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Entities\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Entities\\AggregateRoot.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Entities\\AggregateRoot.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Entities\\AggregateRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:27:27.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BussinesIdIsValid.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\Rule\\BussinesIdIsValid.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\ValueObjects\\Rule\\BussinesIdIsValid.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\ValueObjects\\Rule\\BussinesIdIsValid.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\ValueObjects\\Rule\\BussinesIdIsValid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:32:48.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "framework\\AIPFramework\\Entities\\Entity.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\Entities\\Entity.cs",
+              "RelativeToolTip": "framework\\AIPFramework\\Entities\\Entity.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowEAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:27:36.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Common\\ApplicationResponse.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\BitPay.Domain\\Common\\ApplicationResponse.cs",
+              "ToolTip": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\Common\\ApplicationResponse.cs",
+              "RelativeToolTip": "Src\\Domain\\BitPay.Domain\\Common\\ApplicationResponse.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:18:00.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

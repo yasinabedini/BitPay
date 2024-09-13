@@ -1,0 +1,29 @@
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.deps.json
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.runtimeconfig.json
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.dll
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.pdb
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.csproj.AssemblyReference.cache
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.AssemblyInfoInputs.cache
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.AssemblyInfo.cs
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.csproj.CoreCompileInputs.cache
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.sourcelink.json
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.dll
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\refint\AIPFramework.dll
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.pdb
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.genruntimeconfig.cache
+C:\Users\PIXEL SHOP\source\repos\AYweb\framework\AIPFramework\obj\Debug\net7.0\ref\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.deps.json
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.runtimeconfig.json
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\bin\Debug\net7.0\AIPFramework.pdb
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.csproj.AssemblyReference.cache
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.AssemblyInfoInputs.cache
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.AssemblyInfo.cs
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.csproj.CoreCompileInputs.cache
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\refint\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.pdb
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.genruntimeconfig.cache
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\ref\AIPFramework.dll
