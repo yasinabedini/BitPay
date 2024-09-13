@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Payment\Repositories\" />
     <Folder Include="Payment\Rule\" />
     <Folder Include="Payment\ValueObjects\" />
     <Folder Include="Transfer\Rule\" />
