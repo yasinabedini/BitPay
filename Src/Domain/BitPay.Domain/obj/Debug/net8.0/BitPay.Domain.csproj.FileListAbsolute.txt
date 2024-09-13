@@ -1,0 +1,15 @@
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\bin\Debug\net8.0\BitPay.Domain.deps.json
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\bin\Debug\net8.0\BitPay.Domain.dll
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\bin\Debug\net8.0\BitPay.Domain.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\bin\Debug\net8.0\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\bin\Debug\net8.0\AIPFramework.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.csproj.AssemblyReference.cache
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.AssemblyInfoInputs.cache
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.AssemblyInfo.cs
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.csproj.CoreCompileInputs.cache
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.D.B01945FE.Up2Date
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.dll
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\refint\BitPay.Domain.dll
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\ref\BitPay.Domain.dll

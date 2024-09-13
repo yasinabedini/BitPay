@@ -1,0 +1,7 @@
+C:\Users\R.M\source\repos\BitPay\Src\Endpoints\BitPay.Api\obj\Debug\net8.0\BitPay.Api.csproj.AssemblyReference.cache
+C:\Users\R.M\source\repos\BitPay\Src\Endpoints\BitPay.Api\obj\Debug\net8.0\BitPay.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R.M\source\repos\BitPay\Src\Endpoints\BitPay.Api\obj\Debug\net8.0\BitPay.Api.AssemblyInfoInputs.cache
+C:\Users\R.M\source\repos\BitPay\Src\Endpoints\BitPay.Api\obj\Debug\net8.0\BitPay.Api.AssemblyInfo.cs
+C:\Users\R.M\source\repos\BitPay\Src\Endpoints\BitPay.Api\obj\Debug\net8.0\BitPay.Api.csproj.CoreCompileInputs.cache
+C:\Users\R.M\source\repos\BitPay\Src\Endpoints\BitPay.Api\obj\Debug\net8.0\BitPay.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\R.M\source\repos\BitPay\Src\Endpoints\BitPay.Api\obj\Debug\net8.0\BitPay.Api.MvcApplicationPartsAssemblyInfo.cache
