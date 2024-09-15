@@ -1,4 +1,5 @@
 ﻿using AIPFramework.Entities;
+using BitPay.Domain.Merchant.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Domain.Payment.Entities
 {
-    public class Payment : AggregateRoot
+    public class Payment : AggregateRoot<long>
     {
         #region Properties
         public long MemberId { get; private set; }
@@ -18,13 +19,13 @@ namespace BitPay.Domain.Payment.Entities
         public string ReferenceNumber { get; private set; }
         public string Maskcard { get; private set; }
         public bool IsSuccess { get; private set; }
+
+
+        public Member.Entities.Member  Member { get; set; }
+        public Merchant.Entities.Merchant Merchant { get; set; }
         #endregion
 
-        #region Constructors and Factories
-        private Payment()
-        {
-
-        }
+        #region Constructors and Factories        
         public Payment(long memberId, long merchantId, double price, string? rrn, string referenceNumber, string maskcard, bool isSuccess)
         {
             MemberId = memberId;

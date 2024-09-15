@@ -1,5 +1,4 @@
 ﻿using AIPFramework.ValueObjects;
-using System.Runtime.CompilerServices;
 
 namespace AIPFramework.Entities;
 /// <summary>
@@ -13,16 +12,17 @@ public abstract class Entity<TId> : IAuditableEntity where TId : struct, ICompar
     /// صرفا برای ذخیره در دیتابیس و سادگی کار مورد استفاده قرار بگیرید.
     /// </summary>
     public TId Id { get; protected set; }
-    public DateTime CreateAt { get; set; }
+    public DateTime CreateAt { get; init; }
     public DateTime? ModifiedAt { get; set; }
     public bool IsDelete { get; set; }
+    public bool IsEnable { get; set; }
 
     /// <summary>
     /// شناسه Entity
     /// شناسه اصلی Entity که در همه جا باید مورد استفاده قرار گیرد BusinessId است.
     /// تمامی ارتباطات به کمک این شناسه باید برقرار شود.
     /// </summary>
-    public BusinessId BusinessId { get; protected set; } = BusinessId.FromGuid(Guid.NewGuid());
+    //public BusinessId BusinessId { get; protected set; } = BusinessId.FromGuid(Guid.NewGuid());
 
     /// <summary>
     /// سازنده پیش‌فرض به صورت Protected تعریف شده است.
@@ -30,8 +30,28 @@ public abstract class Entity<TId> : IAuditableEntity where TId : struct, ICompar
     /// بار جلو گیری از این مورد برای همه Entityها باید سازنده‌هایی تعریف شود که مقدار ورودی دارند.
     /// برای اینکه بتوان از همین Entityها برای فرایند ذخیره سازی و بازیابی از دیتابیس به کمک ORMها استفاده کرد، ضروری است که سازنده پیش‌فرض با سطح دسترسی بالا مثل Protected یا Private ایجاد شود.
     /// </summary>
-    protected Entity() { }
+    protected Entity()
+    {
+        CreateAt = DateTime.Now;
+        IsEnable = true;
+    }
 
+    protected void Modified()
+    {
+        ModifiedAt = DateTime.Now;
+    }
+
+    public void ChangeIsEnable(bool isEnable)
+    {
+        IsEnable = isEnable;
+        Modified();
+    }
+
+    public void SetId(TId id)
+    {
+        Id = id;
+        Modified();
+    }
 
     #region Equality Check
     public bool Equals(Entity<TId>? other) => this == other;
@@ -54,20 +74,10 @@ public abstract class Entity<TId> : IAuditableEntity where TId : struct, ICompar
         => !(right == left);
 
     #endregion
-
-    protected void Modified()
-    {
-        ModifiedAt = DateTime.Now;
-    }
-    protected void Delete()
-    {
-        IsDelete = true;
-        Modified();
-    }
 }
 
 
 public abstract class Entity : Entity<long>
 {
-    
+
 }

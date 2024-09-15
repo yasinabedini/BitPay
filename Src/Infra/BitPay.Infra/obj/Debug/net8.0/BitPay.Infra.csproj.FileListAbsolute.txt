@@ -9,3 +9,12 @@ C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\BitPay.
 C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\refint\BitPay.Infra.dll
 C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\BitPay.Infra.pdb
 C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\ref\BitPay.Infra.dll
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\bin\Debug\net8.0\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\bin\Debug\net8.0\BitPay.Domain.dll
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\bin\Debug\net8.0\BitPay.Domain.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\bin\Debug\net8.0\AIPFramework.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\BitPay.Infra.csproj.AssemblyReference.cache
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\BitPay.Infra.sourcelink.json
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\BitPay.I.794C6549.Up2Date
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\bin\Debug\net8.0\BitPay.Infra.runtimeconfig.json
+C:\Users\R.M\source\repos\BitPay\Src\Infra\BitPay.Infra\obj\Debug\net8.0\BitPay.Infra.genruntimeconfig.cache

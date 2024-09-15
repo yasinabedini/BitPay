@@ -6,6 +6,8 @@ using AIPFramework.Event;
 namespace AIPFramework.Entities;
 /// <summary>
 /// پیاده سازی الگوی AggregateRoot
+/// توضیحات کامل در مورد این الگو را در آدرس زیر می‌توانید مشاهده نمایید
+/// https://martinfowler.com/bliki/DDD_Aggregate.html
 /// 
 /// </summary>
 public abstract class AggregateRoot<TId> : Entity<TId>, IAggregateRoot where TId : struct, IComparable, IComparable<TId>, IConvertible, IEquatable<TId>, IFormattable

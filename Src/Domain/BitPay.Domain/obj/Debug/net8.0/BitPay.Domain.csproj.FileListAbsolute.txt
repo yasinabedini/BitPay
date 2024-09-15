@@ -13,3 +13,6 @@ C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPa
 C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\refint\BitPay.Domain.dll
 C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.pdb
 C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\ref\BitPay.Domain.dll
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.sourcelink.json
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\bin\Debug\net8.0\BitPay.Domain.runtimeconfig.json
+C:\Users\R.M\source\repos\BitPay\Src\Domain\BitPay.Domain\obj\Debug\net8.0\BitPay.Domain.genruntimeconfig.cache

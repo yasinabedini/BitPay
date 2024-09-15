@@ -27,3 +27,4 @@ C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\refint\
 C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.pdb
 C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.genruntimeconfig.cache
 C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\ref\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\framework\AIPFramework\obj\Debug\net7.0\AIPFramework.sourcelink.json

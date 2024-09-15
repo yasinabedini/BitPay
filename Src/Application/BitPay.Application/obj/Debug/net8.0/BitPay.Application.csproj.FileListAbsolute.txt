@@ -9,3 +9,14 @@ C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\ne
 C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\net8.0\refint\BitPay.Application.dll
 C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\net8.0\BitPay.Application.pdb
 C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\net8.0\ref\BitPay.Application.dll
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\bin\Debug\net8.0\AIPFramework.dll
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\bin\Debug\net8.0\BitPay.Domain.dll
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\bin\Debug\net8.0\BitPay.Infra.dll
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\bin\Debug\net8.0\AIPFramework.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\bin\Debug\net8.0\BitPay.Domain.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\bin\Debug\net8.0\BitPay.Infra.pdb
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\net8.0\BitPay.Application.csproj.AssemblyReference.cache
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\net8.0\BitPay.Application.sourcelink.json
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\net8.0\BitPay.A.47B19E16.Up2Date
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\bin\Debug\net8.0\BitPay.Application.runtimeconfig.json
+C:\Users\R.M\source\repos\BitPay\Src\Application\BitPay.Application\obj\Debug\net8.0\BitPay.Application.genruntimeconfig.cache

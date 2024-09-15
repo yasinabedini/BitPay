@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BitPay.Domain.Member.ValueObjects.Conversion;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,12 @@ namespace BitPay.Infra.Models.Member.Configs
     {
         public void Configure(EntityTypeBuilder<Domain.Member.Entities.Member> builder)
         {
-            throw new NotImplementedException();
+            builder.Property(t => t.FirstName).HasConversion<PersonNameConversion>();
+            builder.Property(t => t.LastName).HasConversion<PersonNameConversion>();
+            
+            
+            builder.Property(t => t.Mobile).HasConversion<PhoneNumberConversion>();
+            builder.Property(t => t.NationalCode).HasConversion<NationalCodeConversion>();
         }
     }
 }

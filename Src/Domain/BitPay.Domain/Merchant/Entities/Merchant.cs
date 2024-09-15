@@ -3,15 +3,16 @@ using BitPay.Domain.Merchant.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BitPay.Domain.Merchant.Entities
 {
-    public class Merchant : AggregateRoot
+    public class Merchant : AggregateRoot<long>
     {
         #region Properties
-        public string MerchantName { get; private set; }
+        public string MerchantName { get; private set; }        
         public string Description { get; private set; }
         public WalletAddress WalletAddress { get; private set; }
         public string MerchantCode { get; private set; }
@@ -19,16 +20,14 @@ namespace BitPay.Domain.Merchant.Entities
         public Member.Entities.Member? Member { get; private set; }
         #endregion
 
-        #region Constructor And Factories
-        private Merchant() { }
-
-        public Merchant(string merchantName, string description, string walletAddress, string merchantCode, long memberId)
+        #region Constructor And Factories        
+        public Merchant(string merchantName, string description, WalletAddress walletAddress, string merchantCode, long memberId)
         {
             MerchantName = merchantName;
             Description = description;
             WalletAddress = walletAddress;
             MerchantCode = merchantCode;
-            MemberId = memberId;
+            MemberId = memberId;        
         }
         public Merchant Create(string merchantName, string description, string walletAddress, string merchantCode, long memberId)
         {
@@ -62,6 +61,17 @@ namespace BitPay.Domain.Merchant.Entities
             MemberId = memberId;
             Modified();
         } 
+        private string GetUniqueUsername()
+        {
+            using (RandomNumberGenerator rng = RandomNumberGenerator.Create())
+            {
+                byte[] randomNumber = new byte[4];
+                rng.GetBytes(randomNumber);
+                uint result = BitConverter.ToUInt32(randomNumber, 0) % 1000000000;
+
+                return result.ToString();
+            }
+        }
         #endregion
     }
 }

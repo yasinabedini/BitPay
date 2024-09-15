@@ -11,7 +11,7 @@ namespace BitPay.Domain.Member.ValueObjects
 {
     public class PersonName:BaseValueObject<PersonName>
     {
-        public static PhoneNumber FromString(string value) => new(value);
+        public static PersonName FromString(string value) => new(value);
 
         public PersonName(string value)
         {
