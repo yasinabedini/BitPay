@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Domain.Member.Entities
 {
-    public class Member : AggregateRoot<long>
+    public class Member : AggregateRoot
     {
         #region Properties
         public string CustomerCode { get; set; }        
@@ -30,7 +30,7 @@ namespace BitPay.Domain.Member.Entities
             CustomerCode = GetUniqueUsername();
         }
 
-        public Member Create(string firstName, string lastName, string mobile, string nationalCode)
+        public static Member Create(string firstName, string lastName, string mobile, string nationalCode)
         {
             return new Member(firstName, lastName, mobile, nationalCode);
         }

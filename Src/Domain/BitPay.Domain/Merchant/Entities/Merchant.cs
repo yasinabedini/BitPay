@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Domain.Merchant.Entities
 {
-    public class Merchant : AggregateRoot<long>
+    public class Merchant : AggregateRoot
     {
         #region Properties
         public string MerchantName { get; private set; }        
@@ -29,7 +29,7 @@ namespace BitPay.Domain.Merchant.Entities
             MerchantCode = merchantCode;
             MemberId = memberId;        
         }
-        public Merchant Create(string merchantName, string description, string walletAddress, string merchantCode, long memberId)
+        public static Merchant Create(string merchantName, string description, string walletAddress, string merchantCode, long memberId)
         {
             return new Merchant(merchantName, description, walletAddress, merchantCode, memberId);
         }

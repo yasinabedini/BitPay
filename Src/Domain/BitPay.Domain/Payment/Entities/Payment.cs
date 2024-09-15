@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Domain.Payment.Entities
 {
-    public class Payment : AggregateRoot<long>
+    public class Payment : AggregateRoot
     {
         #region Properties
         public long MemberId { get; private set; }

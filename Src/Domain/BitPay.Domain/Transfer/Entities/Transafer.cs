@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Domain.Transfer.Entities
 {
-    public class Transafer : AggregateRoot<long>
+    public class Transafer : AggregateRoot
     {
         public long MerchantId { get; private set; }
         public long CoinTransfered { get; private set; }

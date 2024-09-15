@@ -10,6 +10,7 @@ namespace BitPay.Domain.Common
     {
         public bool IsSuccess { get; set; }
         public string? Error { get; set; }
+        public string ResponseCode { get; set; }
         public string Message { get; set; }
         public string? Warning { get; set; }
         public T Result { get; set; }
@@ -19,6 +20,7 @@ namespace BitPay.Domain.Common
     {
         public bool IsSuccess { get; set; }
         public string? Error { get; set; }
+        public string ResponseCode { get; set; }
         public string Message { get; set; }
         public string? Warning { get; set; }
     }
