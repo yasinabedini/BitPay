@@ -27,4 +27,9 @@
     <ProjectReference Include="..\..\Infra\BitPay.Infra\BitPay.Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Payment\Queries\" />
+    <Folder Include="Transfer\Queries\" />
+  </ItemGroup>
+
 </Project>

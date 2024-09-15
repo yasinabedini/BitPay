@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BitPay.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2404c2d69e8f9cd0fcc43f465962c1d906270901")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+667242f8412e6b1825a8b779c5e5e5d12f70e991")]
 [assembly: System.Reflection.AssemblyProductAttribute("BitPay.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BitPay.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
