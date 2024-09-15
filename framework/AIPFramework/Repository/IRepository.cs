@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AIPFramework.Repository
 {
-    public interface IRepository<TEntity>
+    public interface IRepository<TEntity> where TEntity : AggregateRoot
     {
         TEntity GetById(long id);
         void Add(TEntity entity);
