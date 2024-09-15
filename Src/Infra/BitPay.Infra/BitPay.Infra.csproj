@@ -7,13 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Member\Repositories\" />
-    <Folder Include="Models\Merchant\Repositories\" />
-    <Folder Include="Models\Payment\Repositories\" />
-    <Folder Include="Models\Transfer\Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
       <PrivateAssets>all</PrivateAssets>
@@ -29,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\AIPFramework\AIPFramework.csproj" />
     <ProjectReference Include="..\..\Domain\BitPay.Domain\BitPay.Domain.csproj" />
   </ItemGroup>
 

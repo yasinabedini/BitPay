@@ -4589,6 +4589,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AIPFramework >= 1.0.0",
       "BitPay.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
@@ -4631,6 +4632,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\AIPFramework.csproj": {
+              "projectPath": "C:\\Users\\R.M\\source\\repos\\BitPay\\framework\\AIPFramework\\AIPFramework.csproj"
+            },
             "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj": {
               "projectPath": "C:\\Users\\R.M\\source\\repos\\BitPay\\Src\\Domain\\BitPay.Domain\\BitPay.Domain.csproj"
             }
