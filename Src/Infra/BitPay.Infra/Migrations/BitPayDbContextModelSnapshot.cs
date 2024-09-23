@@ -150,7 +150,6 @@ namespace BitPay.Infra.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("ReferenceNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Rrn")
@@ -165,6 +164,43 @@ namespace BitPay.Infra.Migrations
                     b.ToTable("Payments");
                 });
 
+            modelBuilder.Entity("BitPay.Domain.Sms.Entites.Sms", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsEnable")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sms");
+                });
+
             modelBuilder.Entity("BitPay.Domain.Transfer.Entities.Transafer", b =>
                 {
                     b.Property<long>("Id")
@@ -173,8 +209,8 @@ namespace BitPay.Infra.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("CoinTransfered")
-                        .HasColumnType("bigint");
+                    b.Property<double>("CoinTransfered")
+                        .HasColumnType("float");
 
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");

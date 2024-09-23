@@ -2,11 +2,13 @@
 using BitPay.Domain.Member.Repositories;
 using BitPay.Domain.Merchant.Repositories;
 using BitPay.Domain.Payment.Repositories;
+using BitPay.Domain.Sms.Repositories;
 using BitPay.Domain.Transfer.Repositories;
 using BitPay.Infra.Context;
 using BitPay.Infra.Models.Member.Repositories;
 using BitPay.Infra.Models.Merchant.Repositories;
 using BitPay.Infra.Models.Payment.Repositories;
+using BitPay.Infra.Models.Sms.Repositories;
 using BitPay.Infra.Models.Transfer.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -24,12 +26,13 @@ public static class DependencyInjection
 
         services.AddDomain();
 
-        services.AddDbContext<BitPayDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("LOCAL_DB")));
+        services.AddDbContext<BitPayDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("LOCAL_DB"), sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
         services.AddTransient<IMemberRepository, MemberRepository>();
         services.AddTransient<IMerchantRepository, MerchantRepository>();
         services.AddTransient<IPaymentRepository, PaymentRepository>();
         services.AddTransient<ITransferRepository, TransferRepository>();
+        services.AddTransient<ISmsRepository, SmsRepository>();
 
         return services;
     }

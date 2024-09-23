@@ -14,14 +14,14 @@ namespace BitPay.Domain.Member.Entities
     {
         #region Properties
         public string CustomerCode { get; set; }        
-        public PersonName FirstName { get; private set; }
-        public PersonName LastName { get; private set; }
-        public PhoneNumber Mobile { get; private set; }
-        public NationalCode NationalCode { get; private set; }
+        public string FirstName { get; private set; }
+        public string LastName { get; private set; }
+        public string Mobile { get; private set; }
+        public string NationalCode { get; private set; }
         #endregion
 
         #region Constructor And Factories        
-        public Member(PersonName firstName, PersonName lastName, PhoneNumber mobile, NationalCode nationalCode)
+        public Member(string firstName, string lastName, string mobile, string nationalCode)
         {
             FirstName = firstName;
             LastName = lastName;

@@ -14,14 +14,18 @@ namespace BitPay.Domain.Merchant.Entities
         #region Properties
         public string MerchantName { get; private set; }        
         public string Description { get; private set; }
-        public WalletAddress WalletAddress { get; private set; }
+        public string WalletAddress { get; private set; }
         public string MerchantCode { get; private set; }
         public long MemberId { get; private set; }
         public Member.Entities.Member? Member { get; private set; }
         #endregion
 
-        #region Constructor And Factories        
-        public Merchant(string merchantName, string description, WalletAddress walletAddress, string merchantCode, long memberId)
+        #region Constructor And Factories       
+        public Merchant()
+        {
+            
+        }
+        public Merchant(string merchantName, string description, string walletAddress, string merchantCode, long memberId)
         {
             MerchantName = merchantName;
             Description = description;

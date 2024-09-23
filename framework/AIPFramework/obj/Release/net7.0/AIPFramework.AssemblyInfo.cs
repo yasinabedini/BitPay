@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIPFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56ce18f4bc9176c91f90f2f9e9c531c08fb677ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIPFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIPFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

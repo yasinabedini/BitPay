@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BitPay.Infra.Migrations
 {
     [DbContext(typeof(BitPayDbContext))]
-    [Migration("20240915101157_init")]
-    partial class init
+    [Migration("20240923211809__Mig_addSms")]
+    partial class _Mig_addSms
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -153,7 +153,6 @@ namespace BitPay.Infra.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("ReferenceNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Rrn")
@@ -161,7 +160,48 @@ namespace BitPay.Infra.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MemberId");
+
+                    b.HasIndex("MerchantId");
+
                     b.ToTable("Payments");
+                });
+
+            modelBuilder.Entity("BitPay.Domain.Sms.Entites.Sms", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsEnable")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sms");
                 });
 
             modelBuilder.Entity("BitPay.Domain.Transfer.Entities.Transafer", b =>
@@ -172,8 +212,8 @@ namespace BitPay.Infra.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("CoinTransfered")
-                        .HasColumnType("bigint");
+                    b.Property<double>("CoinTransfered")
+                        .HasColumnType("float");
 
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");
@@ -210,6 +250,25 @@ namespace BitPay.Infra.Migrations
                         .IsRequired();
 
                     b.Navigation("Member");
+                });
+
+            modelBuilder.Entity("BitPay.Domain.Payment.Entities.Payment", b =>
+                {
+                    b.HasOne("BitPay.Domain.Member.Entities.Member", "Member")
+                        .WithMany()
+                        .HasForeignKey("MemberId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("BitPay.Domain.Merchant.Entities.Merchant", "Merchant")
+                        .WithMany()
+                        .HasForeignKey("MerchantId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Member");
+
+                    b.Navigation("Merchant");
                 });
 
             modelBuilder.Entity("BitPay.Domain.Transfer.Entities.Transafer", b =>

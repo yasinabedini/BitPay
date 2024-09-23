@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Application.Merchants.Queries.GetMerchantTransfers
 {
-    public class GetMerchantTransfersQueryHandler:IQueryHandler<GetMerchantTransfersQuery,ApplicationResponse<TransferResult>>
+    public class GetMerchantTransfersQueryHandler:IQueryHandler<GetMerchantTransfersQuery,ApplicationResponse<List<TransferResult>>>
     {
         private readonly IMerchantRepository _merchantRepository;
 
@@ -21,13 +21,13 @@ namespace BitPay.Application.Merchants.Queries.GetMerchantTransfers
             _merchantRepository = merchantRepository;
         }
 
-        public async Task<ApplicationResponse<TransferResult>> Handle(GetMerchantTransfersQuery request, CancellationToken cancellationToken)
+        public async Task<ApplicationResponse<List<TransferResult>>> Handle(GetMerchantTransfersQuery request, CancellationToken cancellationToken)
         {
             var result = await _merchantRepository.GetMerchantTransfers(request.MerchantId);
 
-            return new ApplicationResponse<TransferResult>
+            return new ApplicationResponse<List<TransferResult>>
             {
-                Result = new TransferResult(result.Result.MerchantId, result.Result.CoinTransfered, result.Result.WalletAdress),
+                Result = result.Result.Select(t=>new TransferResult(t.MerchantId,t.CoinTransfered,t.WalletAdress)).ToList(),
                 Error = result.Error,
                 IsSuccess = result.IsSuccess,
                 Message = result.Message,

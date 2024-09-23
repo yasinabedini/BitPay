@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BitPay.Infra.Migrations
 {
     [DbContext(typeof(BitPayDbContext))]
-    [Migration("20240915101827__Mig_updateRelations")]
-    partial class _Mig_updateRelations
+    [Migration("20240922120520_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -153,7 +153,6 @@ namespace BitPay.Infra.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("ReferenceNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Rrn")
@@ -176,8 +175,8 @@ namespace BitPay.Infra.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("CoinTransfered")
-                        .HasColumnType("bigint");
+                    b.Property<double>("CoinTransfered")
+                        .HasColumnType("float");
 
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");

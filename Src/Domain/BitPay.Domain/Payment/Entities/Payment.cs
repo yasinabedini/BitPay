@@ -16,7 +16,7 @@ namespace BitPay.Domain.Payment.Entities
         public long MerchantId { get; private set; }
         public double Price { get; private set; }
         public string? Rrn { get; private set; }
-        public string ReferenceNumber { get; private set; }
+        public string? ReferenceNumber { get; private set; }
         public string Maskcard { get; private set; }
         public bool IsSuccess { get; private set; }
 
@@ -26,7 +26,7 @@ namespace BitPay.Domain.Payment.Entities
         #endregion
 
         #region Constructors and Factories        
-        public Payment(long memberId, long merchantId, double price, string? rrn, string referenceNumber, string maskcard, bool isSuccess)
+        public Payment(long memberId, long merchantId, double price, string? rrn, string? referenceNumber, string maskcard, bool isSuccess)
         {
             MemberId = memberId;
             MerchantId = merchantId;
@@ -36,7 +36,7 @@ namespace BitPay.Domain.Payment.Entities
             Maskcard = maskcard;
             IsSuccess = isSuccess;
         }
-        public Payment Create(long memberId, long merchantId, double price, string? rrn, string referenceNumber, string maskcard, bool isSuccess)
+        public static Payment Create(long memberId, long merchantId, double price, string? rrn, string? referenceNumber, string maskcard, bool isSuccess)
         {
             return new Payment(memberId, merchantId, price, rrn, referenceNumber, maskcard, isSuccess);
         }
@@ -48,19 +48,16 @@ namespace BitPay.Domain.Payment.Entities
             MemberId = memberId;
             Modified();
         }
-
         public void ChangeMerchantId(long merchantId)
         {
             MerchantId = merchantId;
             Modified();
         }
-
         public void ChangePrice(double price)
         {
             Price = price;
             Modified();
         }
-
         public void SetRrn(string rrn)
         {
             Rrn = rrn;
@@ -71,11 +68,14 @@ namespace BitPay.Domain.Payment.Entities
             ReferenceNumber = referenceNumber;
             Modified();
         }
-
         public void ChangeMaskcard(string maskcard)
         {
             Maskcard = maskcard;
             Modified();
+        }
+        public void VerifyPayment(bool isSuccess,string rrn,string referenceNumber)
+        {
+
         }
         #endregion
 

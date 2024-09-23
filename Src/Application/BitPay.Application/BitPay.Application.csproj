@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <Folder Include="Payment\Queries\" />
+    <Folder Include="Sms\Queries\" />
     <Folder Include="Transfer\Queries\" />
   </ItemGroup>
 

@@ -33,29 +33,6 @@ namespace BitPay.Infra.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Payments",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    MemberId = table.Column<long>(type: "bigint", nullable: false),
-                    MerchantId = table.Column<long>(type: "bigint", nullable: false),
-                    Price = table.Column<double>(type: "float", nullable: false),
-                    Rrn = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ReferenceNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Maskcard = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IsSuccess = table.Column<bool>(type: "bit", nullable: false),
-                    CreateAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ModifiedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    IsDelete = table.Column<bool>(type: "bit", nullable: false),
-                    IsEnable = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Payments", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Merchants",
                 columns: table => new
                 {
@@ -83,13 +60,46 @@ namespace BitPay.Infra.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Payments",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    MemberId = table.Column<long>(type: "bigint", nullable: false),
+                    MerchantId = table.Column<long>(type: "bigint", nullable: false),
+                    Price = table.Column<double>(type: "float", nullable: false),
+                    Rrn = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ReferenceNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Maskcard = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsSuccess = table.Column<bool>(type: "bit", nullable: false),
+                    CreateAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ModifiedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    IsDelete = table.Column<bool>(type: "bit", nullable: false),
+                    IsEnable = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Payments", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Payments_Members_MemberId",
+                        column: x => x.MemberId,
+                        principalTable: "Members",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Payments_Merchants_MerchantId",
+                        column: x => x.MerchantId,
+                        principalTable: "Merchants",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Transafers",
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     MerchantId = table.Column<long>(type: "bigint", nullable: false),
-                    CoinTransfered = table.Column<long>(type: "bigint", nullable: false),
+                    CoinTransfered = table.Column<double>(type: "float", nullable: false),
                     WalletAdress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CreateAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ModifiedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -111,6 +121,16 @@ namespace BitPay.Infra.Migrations
                 name: "IX_Merchants_MemberId",
                 table: "Merchants",
                 column: "MemberId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Payments_MemberId",
+                table: "Payments",
+                column: "MemberId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Payments_MerchantId",
+                table: "Payments",
+                column: "MerchantId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Transafers_MerchantId",

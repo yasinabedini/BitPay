@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AIPFramework.Queries;
+using BitPay.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace BitPay.Application.Merchants.Queries.GetRemainingCoins
 {
-    internal class GetRemainingCoinsQuery
+    public class GetRemainingCoinsQuery:IQuery<ApplicationResponse<double>>
     {
+        public long MerchantId { get; set; }
     }
 }

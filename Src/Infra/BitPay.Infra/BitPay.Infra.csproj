@@ -26,4 +26,8 @@
     <ProjectReference Include="..\..\Domain\BitPay.Domain\BitPay.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Sms\Configs\" />
+  </ItemGroup>
+
 </Project>

@@ -22,7 +22,8 @@ namespace BitPay.Application.Memeber.Commands.RegisterMember
         {
             try
             {
-                _repository.Add(Domain.Member.Entities.Member.Create(request.FirstName, request.LastName, request.Mobile, request.NationalCode));
+                var user = Domain.Member.Entities.Member.Create(request.FirstName, request.LastName, request.Mobile, request.NationalCode);
+                _repository.Add(user);
                 _repository.Save();
 
                 return Task.FromResult(new ApplicationResponse

@@ -1001,6 +1001,7 @@
       },
       "BitPay.Infra/1.0.0": {
         "dependencies": {
+          "AIPFramework": "1.0.0",
           "BitPay.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.8",

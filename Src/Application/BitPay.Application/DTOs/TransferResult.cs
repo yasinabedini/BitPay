@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Application.DTOs
 {
-    public record TransferResult(long MerchantId, long CoinTransfered, string WalletAdress)
+    public record TransferResult(long MerchantId, double CoinTransfered, string WalletAdress)
     {
     }
 }

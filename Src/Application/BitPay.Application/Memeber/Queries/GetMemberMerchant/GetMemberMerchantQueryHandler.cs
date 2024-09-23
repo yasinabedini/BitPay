@@ -26,7 +26,7 @@ namespace BitPay.Application.Memeber.Queries.GetMemberMerchant
 
             return new ApplicationResponse<MerchantResult>
             {
-                Result = new MerchantResult(result.Result.MerchantName, result.Result.Description, result.Result.WalletAddress.Value, result.Result.MerchantCode, result.Result.MemberId),
+                Result = new MerchantResult(result.Result.MerchantName, result.Result.Description, result.Result.WalletAddress, result.Result.MerchantCode, result.Result.MemberId),
                 Error = result.Error,
                 IsSuccess = result.IsSuccess,
                 Message = result.Message,

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BitPay.Application.Merchants.Queries.GetMerchantTransfers
 {
-    public class GetMerchantTransfersQuery : IQuery<ApplicationResponse<TransferResult>>
+    public class GetMerchantTransfersQuery : IQuery<ApplicationResponse<List<TransferResult>>>
     {
         public long MerchantId { get; set; }
     }
